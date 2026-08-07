@@ -1014,7 +1014,10 @@ section{ padding:72px 0; }
     .logo-frame{ width:170px; height:auto; }
     .logo-frame img{ width:100%; height:auto; }
 
-    .quote-section{ padding-top:48px; }
+    .quote-section{ 
+		padding-top:48px;
+		border-radius: 0 0 25px 25px; 
+	}
     .quote-wrap{ 
         gap:0;
         align-items:flex-start; 
