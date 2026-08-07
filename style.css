@@ -350,7 +350,7 @@ section{ padding:72px 0; }
     width:auto;
     max-width:100%;
     object-fit:contain;
-    margin:0 auto 32px;
+    margin:32px auto 0px;
     display:block;
 }
 
@@ -998,11 +998,14 @@ section{ padding:72px 0; }
         margin-bottom: 0;
     }
     .stat-label {
-        margin: 0 auto; 
+        margin: 0 auto;
+		font-size: 18px;
+		max-width:320px;
     }
     .stat-number, .stat-tag {
         justify-content: center;
         display: flex;
+		font-size:clamp(50px, 3vw, 38px);
     }
     .stats-divider {
         margin: 48px auto 0;
