@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.andreaoliveira.com.br/sitemap.xml
