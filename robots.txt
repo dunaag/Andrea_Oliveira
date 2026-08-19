@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://andreaoliveiraconsultoria.com.br/sitemap.xml
