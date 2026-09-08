@@ -1326,24 +1326,23 @@ section{ padding:72px 0; }
     .logos-strip{
         width:100%;
         max-width:100%;
-        overflow:visible;
-        -webkit-mask-image:none;
-        mask-image:none;
+        overflow:hidden;
+        -webkit-mask-image:linear-gradient(90deg, transparent 0, #000 6%, #000 94%, transparent 100%);
+        mask-image:linear-gradient(90deg, transparent 0, #000 6%, #000 94%, transparent 100%);
     }
     .logos-track{
-        width:100%;
+        width:max-content;
         display:flex;
-        flex-wrap:wrap;
-        justify-content:center;
-        gap:20px 16px;
-        animation:none;
+        flex-wrap:nowrap;
+        align-items:center;
+        gap:16px;
+        animation:logos-scroll 26s linear infinite;
     }
-    .logos-track .logo-item[aria-hidden="true"]{ display:none; }
     .logo-item{
-        padding-inline:0;
-        width:calc((100% - 48px) / 4);
-        height:auto;
-        max-height:32px;
+        padding-inline:10px;
+        width:auto;
+        height:28px;
+        flex:0 0 auto;
         object-fit:contain;
     }
 
